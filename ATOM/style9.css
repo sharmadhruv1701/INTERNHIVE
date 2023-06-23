@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Alfa Slab One' , cursive;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background: #a8a8a8;
+}
+.container h1{
+  text-align: center;
+  margin-top: -200px;
+  margin-bottom: 200px;
+  font-size: 80px;
+  font-family: Garamond;
+  font-weight: bolder;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+.container p1{
+  font-size: 35px;
+  margin-bottom: 200px;
+  word-spacing: 10px;
+  font-family: sans-serif;
+}
+.container h2{
+  font-family: monospace;
+  font-size: 40px;
+  margin-top: 50px;
+  white-space: nowrap;
+}
+.container p{
+  font-size: 35px;
+  text-align: left;
+  white-space: nowrap;
+}
+.container{
+  position: relative;
+  width: 1090px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 10%;
+}
+.container button{
+  display: inline-block;
+  color: #fff;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.1px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.container .card{
+  width: 1000px;
+  position: relative;
+  height: 800px;
+  background: #f0f0f0;
+  margin: 30px 20px;
+  padding: 60px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5px 10px #e6e6e6;
+  transition: 0.3s ease-in-out;
+  margin-top: 5%;
+}
+.container .card .imgBx{
+  position: relative;
+  width: 250px;
+  height: 160px;
+  top: -80px;
+  left: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 1.2);
+}
+.container .card .imgBx img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+.imgBx:hover img{
+  transform: scale(1.1);
+}

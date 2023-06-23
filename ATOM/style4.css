@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+body{
+  background-color: #ffffff;
+}
+.heading{
+  text-align: center;
+  margin-top: 25px;
+}
+.heading h1{
+  font-family: Garamond;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.heading p{
+  font-size: 20px;
+  font-weight: 900;
+  color: #116D6E;
+  margin-left: auto;
+}
+.about-us{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+.about-us img{
+  flex: 0 50%;
+  max-width: 50%;
+  height: auto;
+}
+.content{
+  padding: 35px;
+}
+.content h2{
+  color: #ffffff;
+  font-size: 24px;
+  margin: 15px 0px;
+}
+.content p{
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 15px 0px;
+}
+.read-more-btn{
+  display: inline-block;
+  color: #fff;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.read-more-btn:hover{
+  background-color: #006dd6;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.social a{
+  position: relative;
+  color: #111;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+.social a:not(:last-child){
+  margin-right: 60px;
+}
+.social a:hover{
+  transform : scale(1.5)

@@ -1,0 +1,7 @@
+1. Plant doctor app using AI and AR to detect disease
+2. Trip planner website with all-in-one attractions, hotel, weather, and flight booking system
+3. All-in-one health website/app that suggests resistance training routines and recipes based on user’s weight goals
+4. Macros counter for different diets with recipe recommendations based off of ingredient input or user preferences
+5. Sky scanner app for constellations or flight paths in real time
+6. Dog, cat, or exotic pet suggestion based on user’s preferences and lifestyle. Shows user reputable breeders to buy from and list of supplies and food for their ideal pet
+7. Job website scrapper for entry/junior level or internship roles and the salary range from Glassdoor or levels.fyi

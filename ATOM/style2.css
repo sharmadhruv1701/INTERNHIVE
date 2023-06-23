@@ -1,0 +1,62 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: url(img.jpg)no-repeat;
+  background-size: cover;
+}
+.form{
+  font-family: "Roboto",sans-serif;
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  border-style: transparent;
+  border-color: #000;
+  opacity: 99%;
+  max-width: 290PX;
+  margin: 300px auto 200px;
+  padding: 10px 45px 30px 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba( 0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+.form p{
+  text-transform: uppercase;
+  color: #245953;
+  font-weight: bolder;
+  font-family: Arial Black;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+
+}
+.form input{
+  outline: 0;
+  border-radius: 10px;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: Lucida Sans;
+}
+.form input:hover{
+  background-color: #d3f8f9;
+  font-weight: bold;
+  font-size: 15px;
+}
+.form input:focus{
+  background-color: #d3f8f9;
+}
+.form button:hover, .form button:active, .form button:focus{
+  background-color: #408E91;
+}
+.form .message{
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a{
+  color: #226A80;
+  text-decoration: none;
+}
